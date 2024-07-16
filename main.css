@@ -1,0 +1,75 @@
+@font-face {
+    font-family: gilroy;
+    src: url(./fonts/Gilroy-Regular.ttf);
+}
+
+
+@font-face {
+    font-family: antic;
+    src: url(./fonts/Antic-Regular.ttf);
+}
+
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.menu_out{
+    display: flex;
+    border: 1px solid black;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    line-height: 40px;
+    background-color: black;
+    border-right: 0;
+
+}
+
+.menu_in{
+    background-color: #F5FF7D;
+    padding-left: 20px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+.menu_top{
+    display: flex;
+    font-family: gilroy;
+    font-size: 18px;
+}
+
+
+.menu_out_middle{
+    display: flex;
+    border: 1px solid black;
+    line-height: 40px;
+    background-color: black;
+    border-right: 0;
+    border-left: 0;
+}
+
+.menu_in_middle{
+    background-color: white;
+}
+
+.menu_out_last{
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-right: 1px solid black;
+}
+
+.menu_in_middle_last{
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    padding-right: 20px;
+}
+
+.top_area_title{
+    font-family: antic;
+    font-size: 96px;
+    color:black;
+    text-shadow: 3px 5px #00000021;
+}
