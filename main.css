@@ -9,7 +9,10 @@
     src: url(./fonts/Antic-Regular.ttf);
 }
 
-
+body{
+    background-color: #F4F4F4;
+    margin: 0;
+}
 
 .header{
     display: flex;
@@ -72,4 +75,119 @@
     font-size: 96px;
     color:black;
     text-shadow: 3px 5px #00000021;
+    width: 80%;
+    margin-left: 50px;
+}
+
+.top_area{
+    position: relative;
+    height: 522px;
+}
+
+.top_girl{
+    position: absolute;
+    top: 0;
+    right: 50px;
+}
+
+.register_btn{    
+    background-color: #F5FF7D;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 50px;
+    width: 184px;
+    font-size: 22px;
+    font-family: 'gilroy';
+    margin-left: 50px;
+    margin-top: 84px;
+    background-image: url(./assets/arrow.png);
+    background-repeat: no-repeat;
+    background-position: 89% 12px;
+}
+
+.product_cont_in{
+    background-color: black;
+    width: 100%;
+    height: 1000px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+.center_white{
+    margin: 0 auto;
+    position: relative;
+    display: block;
+}
+
+.product_cont_text{
+    font-size: 40px;
+    font-family: antic;
+    color: white;
+    text-transform: uppercase;
+    margin-left: 50px;
+}
+
+.product_cont_yellow{
+    width: 96%;
+    background-color: #F5FF7D;
+    height: 835px;
+    margin-left: 2%;
+    border-radius: 50px;
+    margin-top: 39px;
+}
+
+.yellow_cont_title{
+    font-size: 96px;
+    font-family: antic;
+    color:black
+}
+
+.yellow_cont{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    margin-top: 71px;
+}
+
+.yellow_cont_subtitle{
+    font-size: 19px;
+    font-family: gilroy;
+}
+
+.dots_img_cont{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.yellow_cont_box{
+    width: 50%;
+    padding-left: 50px;
+}
+
+.product_cont_yellow_in{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 80px;
+}
+
+.product_cont_yellow_in_box{
+    border-left: 1px solid black;
+    width: 33%;
+    text-align: center;
+}
+
+.product_cont_yellow_in_box_num{
+    font-size: 52px;
+    font-family: gilroy;
+
+}
+
+.product_cont_yellow_in_box_text{
+    font-size: 19px;
+    font-family: gilroy;
+}
+
+.product_cont_yellow_in_box_no_border{
+    border: 0;
 }
