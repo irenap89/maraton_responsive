@@ -357,3 +357,138 @@ body{
     border-bottom-left-radius: 50px;
     border-right: 0;
 }
+
+.pricing_cont{
+    background-color: #F5FF7D;
+    height: 1000px;
+}
+
+.pricing_cont_in{
+    background-color: black;
+    height: 800px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    padding: 100px;
+}
+
+.text_white{
+    color:white
+}
+
+.pricing_table_cont{
+    display: flex;
+    height: 90%;
+    margin-top: 78px;
+    flex-direction: row-reverse;
+}
+
+.pricing_colomn{
+    /* border-left: 1px solid white;  */
+    width: 20%;
+    height: 378px;
+}
+
+.pricing_colomn_text{
+    width: 30%;
+   /* // background-color: white; */
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+}
+
+
+.pricing_box_text{
+    font-size: 28px;
+    font-family: antic;
+    height: 20%;
+    border-bottom: 1px solid black;
+    padding-left: 37px;
+    line-height: 72px;
+    position: relative;
+     border-right: 1px solid white; 
+}
+
+.border_top_white{
+    border-top: 1px solid white;
+}
+
+
+.black_x{
+    position: absolute;
+    top: 20px;
+    right: 48%;
+}
+
+.pricing_text_top{
+    font-size: 14px;
+    font-family: gabriela;
+    color: white;
+    line-height: 25px;
+}
+
+.pricing_box_text_pricing_num{
+    height: 150px;
+    border:0;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+.pricing_text_top_price{
+    color:white
+}
+
+.num_price{
+    font-size: 70px;
+    font-family: antic;
+}
+
+.per_m{
+    font-size: 20px;
+    font-family: gabriela;
+}
+
+.dolar{
+    font-size: 20px;
+    font-family: 'gabriela';
+}
+
+.bg_white{
+    background-color: white;
+}
+
+.border_radius_top{
+    border-top-left-radius: 50px;
+}
+.border_radius_bottom{
+    border-bottom-left-radius: 50px;
+}
+
+
+.pricing_box_text_yellow{
+    background-color: #F5FF7D;
+   
+}
+
+
+.text_black{
+    color: black;
+}
+
+.join_btn{
+    height: 45px;
+    width: 90%;
+    margin-top: 16px;
+    background-color: black;
+    color: white;
+    font-size: 22px;
+    border: 0;
+    border-radius: 50px;
+}
+
+.join_btn_cont{
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.border_bottom_white{
+    border-bottom: 1px solid white;
+}
