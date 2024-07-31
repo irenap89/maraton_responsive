@@ -615,17 +615,17 @@ body{
     
 }
 
-.top_girl_m,.menu_mobile{
+.top_girl_m,.menu_mobile,.program_img_m,.girl_2_m ,.text_block_btn_join_mobile,.form_img_m{
     display: none;
 }
 
-
 @media only screen and (min-width: 320px) and (max-width: 1000px)  {
 
-    .header{
+    .header, .program_img_cont {
         display: none;
     }
 
+  
     .top_girl_m{
         display: block;
         position: absolute;
@@ -643,7 +643,7 @@ body{
         font-size: 40px;
         color: black;
         text-shadow: 3px 5px #00000021;
-        width: 90%;
+        width: 86%;
         margin-left: 50px;
     }
 
@@ -659,6 +659,236 @@ body{
         margin-left: 43px;
         margin-top: 59px;
     }
+    
+    .dots_img_cont{
+        display: none;
+    }
+
+    .product_cont_text {
+        font-size: 32px;
+    }
+
+    .yellow_cont_title {
+        font-size: 40px;
+
+    }
+    .yellow_cont {
+        margin-top: 18px;
+        margin-left: -88px;
+    }
+
+    .yellow_cont_subtitle {
+        margin-top: 20px;
+    }
+
+    .product_cont_yellow_in {
+        display: flex;
+        flex-direction: column;
+        margin-top: 37px;
+    }
+
+    .product_cont_yellow , .product_cont_in{
+        height: auto;
+    }
+
+    .product_cont_yellow_in_box {
+        border-top: 1px solid black;
+        border-left: 0;
+        width: 116%;
+        display: flex;
+        padding-top: 18px;
+        padding-bottom: 20px;
+    }
+
+
+    .program_cont {
+
+        height: auto;
+        padding-top: 29px;
+    }
+
+    .program_img{
+        display: none;
+    }
+
+    .program_img_m{
+        display: block;
+    }
+
+    .program_title {
+        font-size: 40px;
+        border-bottom: 0;
+    }
+
+    .program_text_cont {
+        width: 92%;
+        padding-bottom: 45px;
+    }
+    .program_cont_in{
+        height: auto;
+    }
+    .program_desc {
+ 
+        font-size: 20px;
+    }
+
+    .program_desc_in{
+        width: 80%;;
+    }
+
+    .white_text {
+        font-size: 33px;
+    }
+
+    .gray_text {
+        font-size: 33px;
+    }
+
+    .text_block {
+        padding: 15px;
+    }
+
+    .text_block_btn {
+        width: 100%;
+        margin-left: 0;
+        background-position: 70%;
+    }
+
+    .tools_title {
+        font-size: 40px;
+    }
+
+
+    .tools_cont_in {
+        height: auto;
+        padding: 20px;
+        padding-bottom: 192px;
+    }
+
+    .girl_2{
+        display: none;
+    }
+
+    .girl_2_m {
+        display: block;
+        margin-top: -120px;
+        position: absolute;
+        top: -238px;
+    }
+
+    .top_line {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 238px;
+    }
+
+    .bottom_line {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .tools_cont {
+        height: auto;
+    }
+
+    .box_general {
+        border-top-left-radius: 50px;
+        border-bottom: 0;
+        border-top-right-radius: 50px;
+    }
+    .box_analytics {
+        border-top-right-radius: 0;
+        border-left: 1px solid black;
+        border-bottom: 0;
+    }
+
+    .tools_cont_boxes {
+        width: auto;
+    }
+
+    .box_front {
+        border-bottom-right-radius: 0;
+    }
+
+
+    .box_researches {
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 50px;
+        border-right: 1px solid black;
+        border-bottom-right-radius: 50px;
+        border-top: 0;
+    }
+
+    .pricing_cont_in {
+        padding: 20px;
+    }
+
+
+
+    .num_price, .dolar {
+        font-size: 14px;
+        margin-left: 3px;
+    }
+
+    .per_m,.pricing_text_top,.dolar{
+        display: none;
+    }
+
+
+    .pricing_box_text {
+        font-size: 16px;
+        height: 55px;
+        padding-left: 15px;
+    }
+    
+    .pricing_colomn {
+        width: 14%;
+    }
+
+    .pricing_colomn_text{
+        width: 40%;
+    }
+
+    .black_x {
+        right: 18%;
+    }
+
+    .join_btn_cont{
+        display: none;
+    }
+
+    .pricing_table_cont {
+        height: 45%;
+    }
+
+    .border_top_white_top{
+        border-top-right-radius: 40px;
+    }
+
+    .border_bottom_white_bottom{
+        border-bottom-right-radius: 40px;
+    }
+
+    .text_block_btn_join_mobile{
+        display: block;
+    }
+
+    .form_img_m{
+        display: block;
+    }
+
+    .form_img{
+        display: none;
+    }
+
+    .pricing_cont {
+        height: auto;
+    }
+
+    .form_cont {
+        padding: 20px;
+    }
+
 }
 
 
